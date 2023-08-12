@@ -199,8 +199,8 @@ void data_Send(String x)
 
   // Set value
   // https://dweet.io/dweet/for/godfather?testvar=69
-  //String url = "AT+HTTPPARA=\"URL\",\"http://dweet.io/dweet/for/godfather?testvar=";
-  String url = "AT+HTTPPARA=\"URL\",\"http://api.robogyan.tech/assets/";
+  
+  String url = "AT+HTTPPARA=\"URL\",\"api key";
   url += x;
   url += "/detect/";
   // url+="&longitude=";
